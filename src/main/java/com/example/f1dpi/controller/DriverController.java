@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3001")
-public class HealthController {
+public class DriverController {
 
     private final DriverService driverService = new DriverService();
 
